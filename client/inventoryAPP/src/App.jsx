@@ -1,12 +1,12 @@
-import './App.css'
+import React from 'react';
+import Form from './components/form'
 
 function App() {
-
   return (
-    <>
-      <div>hola</div>
-    </>
-  )
+    <div>
+      <Form />
+    </div>
+  );
 }
 
-export default App
+export default App;
